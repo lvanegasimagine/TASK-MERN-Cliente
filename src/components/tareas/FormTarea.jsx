@@ -72,7 +72,7 @@ const FormTarea = () => {
                 <input type="text" className="input-text" placeholder="Nombre Tarea..." name="nombre" value={nombre} onChange={handleChange} />
             </div>
             <div className="contenedor-input">
-                <button type="submit" className="btn btn-primario btn-submit btn-block">{tareaseleccionada ? 'Editar Tarea': 'Agregar Tarea'}</button>
+                <button type="submit" className="btn btn-primario btn-submit btn-block">{tareaseleccionada ? 'Actualizar Tarea': 'Agregar Tarea'}</button>
             </div>
         </form>
         {
